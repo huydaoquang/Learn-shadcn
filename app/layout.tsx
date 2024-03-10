@@ -17,9 +17,11 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<nav>
-					<h1>Card list</h1>
-				</nav>
+				<div className="w-full bg-sky-400">
+					<nav>
+						<h1>Card list</h1>
+					</nav>
+				</div>
 				{children}
 			</body>
 		</html>
